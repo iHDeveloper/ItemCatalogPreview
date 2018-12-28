@@ -1,1 +1,13 @@
 # ItemCatalogPreview
+- [IP Address](35.180.21.176) | SSH Port: `2200`
+- [Url](http://futurebattle.tk)
+- Summary of the changes
+  - Operating System -> `Ubuntu 16.04`
+  - Allowed only `80` and `2200` ports in the UFW and in Amazon Lightsail
+  - Created user `grader` and it's got an access to the `sudo` command
+  - Cloned [ItemCatalog](https://github.com/iHDeveloper/ItemCatalog)
+  - I had to put the `client_secrets.json` of my oauth2 application
+  - SSH doesn't accept the password
+- Third Parties
+  - Google OAuth2
+- SSH Key for `grader` is in `/home/grader/.ssh/authorized_keys`
