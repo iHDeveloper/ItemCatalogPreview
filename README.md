@@ -10,4 +10,5 @@
   - SSH doesn't accept the password
 - Third Parties
   - Google OAuth2
+  - Amazon Lightsail
 - SSH Key for `grader` is in `/home/grader/.ssh/authorized_keys`
